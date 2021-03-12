@@ -1,7 +1,11 @@
+
 body {
 
-    background-image: linear-gradient(135deg, #08185B, #949CBC);
-    background-attachment: fixed;
+    background: linear-gradient(-45deg, #EE7752,#E73C7E,#23A6D5,#23D5AB);
+        /*background-attachment: fixed;*/
+        background-size:400% 400%;
+        position: relative;
+        animation: change 10s ease-in-out infinite;
 }
 
 .divStyle {
@@ -14,24 +18,25 @@ body {
 }
 
 .divForm {
-    border: solid black 1px;
-    border-radius: 5px;
-    padding: 20px;
-    text-align: center;
-    background-image: linear-gradient(-45deg, #08185B, #949CBC);
-    color: white;
+    border-radius: 2.5px;
+        padding: 20px;
+        text-align: center;
+        background-color:  #969696;
+        color: white;
+        background: linear-gradient(-40deg, #23D5AB,#23A6D5,#E73C7E,#EE7752);
 }
 
 header {
-    border: solid black 1px;
-    border-radius: 10px;
-    padding: 5px;
-    text-align: center;
-    background-image: linear-gradient(135deg, #08185B, #949CBC);
-    color: white;
+    border-radius: 2.5px;
+        padding: 5px;
+        text-align: center;
+        background-color:  #969696;
+        color: white;
+        background: linear-gradient(-40deg, #23D5AB,#23A6D5,#E73C7E,#EE7752);
+        width: 50%;
 }
 
 button {
     margin: 10px;
-    background-image: linear-gradient(#dbdbdb, #f9f9fa);
+        background-image: linear-gradient(#dbdbdb, #f9f9fa);
 }

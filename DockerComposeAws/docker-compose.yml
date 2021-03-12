@@ -4,7 +4,7 @@ version: '2'
 
 services:
   loadbalancer:
-    image: najoh2907/loadbalancerdockerwebapp
+    image: nikolaibemudez/loadbalancer
     depends_on:
       - web
     container_name: AREP-LOAD-BALANCER
@@ -12,7 +12,7 @@ services:
       - "10000:6000"
 
   web:
-    image: najoh2907/sparkdockerwepapp
+    image: nikolaibemudez/sparkweb
     depends_on:
       - db
     ports:
